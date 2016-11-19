@@ -13,6 +13,21 @@ array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
 
+babel-polyfill@^6.16.0:
+  version "6.16.0"
+  resolved "https://registry.yarnpkg.com/babel-polyfill/-/babel-polyfill-6.16.0.tgz#2d45021df87e26a374b6d4d1a9c65964d17f2422"
+  dependencies:
+    babel-runtime "^6.9.1"
+    core-js "^2.4.0"
+    regenerator-runtime "^0.9.5"
+
+babel-runtime@^6.9.1:
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.18.0.tgz#0f4177ffd98492ef13b9f823e9994a02584c9078"
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.9.5"
+
 content-disposition@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.1.tgz#87476c6a67c8daa87e32e87616df883ba7fb071b"
@@ -28,6 +43,10 @@ cookie-signature@1.0.6:
 cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
+
+core-js@^2.4.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
 debug@~2.2.0:
   version "2.2.0"
@@ -58,6 +77,14 @@ escape-html@~1.0.3:
 etag@~1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.7.0.tgz#03d30b5f67dd6e632d2945d30d6652731a34d5d8"
+
+express-locale@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/express-locale/-/express-locale-1.0.0.tgz#66b93d828c6e38d0d5ecbb97c57ac0176209a8cd"
+
+express-useragent@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/express-useragent/-/express-useragent-1.0.4.tgz#0f74e1c458ed62c773a2b3629c0a6b240c104107"
 
 express@^4.14.0:
   version "4.14.0"
@@ -186,6 +213,10 @@ qs@6.2.0:
 range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
+
+regenerator-runtime@^0.9.5:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.9.6.tgz#d33eb95d0d2001a4be39659707c51b0cb71ce029"
 
 send@0.14.1:
   version "0.14.1"

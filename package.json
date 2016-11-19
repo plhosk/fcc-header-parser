@@ -6,6 +6,9 @@
   "author": "Paul Hoskinson",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "babel-polyfill": "^6.16.0",
+    "express": "^4.14.0",
+    "express-locale": "^1.0.0",
+    "express-useragent": "^1.0.4"
   }
 }
