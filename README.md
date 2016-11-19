@@ -1,6 +1,8 @@
-### User Story: I can get the IP address, language and operating system for my browser.
+### fcc-header-parser
 Paul Hoskinson (plhosk@gmail.com)
 
-Parameters returned: 
+#### User Story:
+I can get the IP address, language and operating system for my browser.
 
+Parameters returned: 
 `{"ipaddress":"","language":"","software":""}`
